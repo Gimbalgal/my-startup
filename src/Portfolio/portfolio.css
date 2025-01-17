@@ -51,3 +51,19 @@
     gap: 16px;
 
 }  
+@media (max-width: 768px){
+    .image-gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -40px;
+    }
+    .image-gallery img{
+        width: 335px;
+    }
+    .port{
+        margin-left: 100px;
+    }
+    .portfolio h2{
+        margin-right: 50px;
+    }
+}
