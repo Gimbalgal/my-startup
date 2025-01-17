@@ -1,0 +1,53 @@
+
+
+.work-container{
+    padding: 3% 15%;
+    min-height: 100vh;
+    /* overflow: hidden;  */
+}
+.portfolio h1{
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #74C69D;
+}
+.portfolio h2{
+    font-family: "Crimson Text";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+}
+.portfolio p {
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.image-gallery img{
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.port{
+    margin-left: 40%;
+    width: 170px;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+.portfolio{
+    width: 411px;
+    gap: 16px;
+
+}  
