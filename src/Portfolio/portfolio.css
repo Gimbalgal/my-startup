@@ -2,16 +2,19 @@
 
 .work-container{
     padding: 3% 15%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* overflow: hidden;  */
 }
+
 .portfolio h1{
     font-family: "Work Sans";
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    margin-top: 20px;
     text-align: center;
     color: #74C69D;
+    margin-left: 110%; 
 }
 .portfolio h2{
     font-family: "Crimson Text";
@@ -20,6 +23,7 @@
     line-height: 50px;
     text-align: center;
     color: #000;
+    margin-left: 100%;
 }
 .portfolio p {
     font-family: "Work Sans";
@@ -27,6 +31,8 @@
     font-size: 20px;
     line-height: 25px;
     text-align: center;
+    width: 411px;
+    margin-left: 65%;
 }
 .image-gallery{
     display: grid;
@@ -35,11 +41,11 @@
 }
 .image-gallery img{
     width: 400px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 40px;
 }
 .port{
-    margin-left: 40%;
+    margin-left: 90%;
     width: 170px;
     height: 48px;
     background-color: #000;
@@ -51,19 +57,52 @@
     gap: 16px;
 
 }  
-@media (max-width: 768px){
+@media (max-width: 320px){
     .image-gallery{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: -40px;
+        margin-left: -90px;
     }
     .image-gallery img{
-        width: 335px;
+        width: 300px;
+    }
+    #btn{
+        margin-left: 20px;
+    }
+    .portfolio h1{
+        margin-left: -50%;
+    }
+
+    .portfolio h2{
+        margin-left: -50%; 
+    }
+    .portfolio p{
+        width: 323px;
+        margin-left: -15%;
+    }
+}
+@media (max-width: 768px){
+    .image-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-left: -100px;
+    }
+    .image-gallery img{
+        width: 75%;
     }
     .port{
-        margin-left: 100px;
+        margin-left: 40px;
     }
+    .portfolio h1{
+        margin-left: -30%;
+    }
+
     .portfolio h2{
-        margin-right: 50px;
+        margin-left: -15%; 
+    }
+    .portfolio p{
+        width: 335px;
+        margin-left: 5%;
     }
 }

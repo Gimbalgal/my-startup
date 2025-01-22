@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../asset/logo.png';
+import start from '../asset/start.svg';
 import hamburger from '../asset/hamburger.svg'; // The hamburger image
 import './navbar.css';
 
@@ -14,17 +14,13 @@ function Navbar() {
     return (
         <nav className="navbar">
             
-                <div className="nav-header">
-                    <div className="logo-container">
-                        <img src={logo} alt="Startup Logo" className="logo" />
-                        <span className="start">Start</span>
-                    </div>
-                
-
-                {/* Hamburger Image that toggles the menu */}
-                <div className="hamburger-container" onClick={toggleMenu}>
-                    <img src={hamburger} alt="hamburger" className="menu-icon" />
-                </div>
+                <div className="navbar-header">
+                        <div className="logo-container">
+                            <img src={start} alt="Startup Logo" className="logo" id="start" />
+                        </div>
+                        <div className="hamburger-container" onClick={toggleMenu}>
+                            <img src={hamburger} alt="hamburger" className="menu-icon" id="menu" />
+                        </div>
                 </div>
 
                 {/* Navigation Links */}

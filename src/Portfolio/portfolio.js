@@ -33,7 +33,7 @@ const Portfolio = () => {
                         <img src={tricks} alt="tricks" className="img" />
                         <img src={reality} alt="virsual" className="img" />
                     </div>
-                    <button className="port">Learn More</button>
+                    <button className="port" id="btn">Learn More</button>
                 </div>
             </section>
             {/* Footer at the bottom */}

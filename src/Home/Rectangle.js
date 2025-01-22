@@ -20,7 +20,7 @@ return (
                 suscipit neque leo quis ab sit nisi hic aenean voluptatem
                 velit sed sint maxim, molestion nihil maiores
             </p>
-            <button className="explore">Explore</button>
+            <button className="explore" id="button">Explore</button>
         </div>
         </div>
         
