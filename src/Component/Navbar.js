@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import start from '../asset/start.svg';
-import hamburger from '../asset/hamburger.svg'; // The hamburger image
+import hamburger from '../asset/hamburger.svg'; 
 import './navbar.css';
 
 function Navbar() {

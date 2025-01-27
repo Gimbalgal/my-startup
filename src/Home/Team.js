@@ -1,8 +1,8 @@
 import React from 'react';
-import peg from '../asset/peg.png';
-import richard from '../asset/richard.png';
-import stolz from '../asset/stolz.png';
-import janet from '../asset/janet.png';
+import ceo from '../asset/ceo.png';
+import cto from '../asset/cto.png';
+import designer from '../asset/designer.png';
+import developer from '../asset/developer.png';
 const Team = () => {
     return ( 
         <section className="workforce">
@@ -13,10 +13,10 @@ const Team = () => {
                 Suscipit nemo hic quos, ab,</p>
             </div>
             <div className="our-talent">
-                <img src={peg} alt="CEO" className='managers'/>
-                <img src={richard} alt="CTO" className='managers' />
-                <img src={stolz} alt="DESIGNER" className='managers' />
-                <img src={janet} alt="DEVELOPER" className='managers'/>
+                <img src={ceo} alt="CEO" className='managers'/>
+                <img src={cto} alt="CTO" className='managers' />
+                <img src={designer} alt="DESIGNER" className='managers' />
+                <img src={developer} alt="DEVELOPER" className='managers'/>
             </div>
             <button className='view'>View Team</button>
         </section>

@@ -7,53 +7,45 @@ body {
   font-family: "Work Sans";
   
 }
-
-.main-container {
-  max-width: 100%;
-  background-color: #74C69D; /* The green background color */
-  min-height: 100vh; 
-  padding: 3% 15%;
+.main-container{
+  width: 370px;
+  height: 515px;
+  background-color: #74C69D;
 }
-
-.hero-section {
-  display: flex;
-  justify-content: space-between;
-  color: white;
-  
+.teamwork{
+  width: 300px;
+  height: 197px;
 }
-.hero-content{
-  transform: translateX(-150%);
-}
-.left{
-  width: 416px;
-  height: 299px;
-  gap: 25px;
-}
-.right{
-  width: 645px;
-  height: 379px;
-}
-h1 {
-  font-family: "crimsom Text";
+.welcome{
+  font-family: "Work Sans";
   font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
-}
-p {
-  font-family: "Work Sans";
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 18.75px;
-}
-
-.welcome {
-  font-family: "Work Sans";
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
-  margin-top: 40%;
+  color: #ffff;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
+.hero-content h1{
+  width: 335px;
+  font-family: "Crimson Text";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffff;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.hero-content p{
+  /* width: 335px; */
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffff;
+  margin-top: 20px;
+  margin-left: 5px;
+}
 .explore {
   height: 48px;
   background-color: white;
@@ -62,475 +54,418 @@ p {
   margin-top: 20px;
   cursor: pointer;
   padding: 20px 40px;
-
-}
-
-.teamwork{
-  width: 80%;
-  height: 378.13px;
-  margin-left: 90%;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 .partners{
-  padding: 3% 15%;
+  height: 712px;
+  top: 664px;
+  left: 20px;
+  gap: 55px;
 }
-.text{
-  width: 411px;
-  height: 162px;
-  gap: 16px;
-  text-align: center;
-  margin: 0 auto;
+.partner-icon{
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 200px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+  .more{
+    margin-left: 40%;
+    width: 170px;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 70px;
 }
 .text h1{
+  text-align: center;
   font-family: "Work Sans";
-  font-size: 16px;
   font-weight: 700;
+  font-size: 16px;
   color: #74C69D;
+  height: 20px;
+  margin-top: 50px;
 }
 .text h2{
+  height: 30px;
+  text-align: center;
   font-family: "Crimson Text";
-  font-weight: 700;
-  font-size: 40px;
-  color: #000;
+  font-size: 24px;
+  margin-top: 10px;
 }
 .text h3{
-  width: 411px;
+  height: 85px;
   font-family: "Work Sans";
   font-weight: 400;
   font-size: 20px;
-  color: #000;
-  margin: 3%;
-}
-.partner-icon{
-  display: flex;
-  justify-content: space-between;
-  margin: 3%;
-}
-.icon{
-  width: 153px;
-  height: 50px;
-  gap: 68px;
-}
-.more{
-  margin-left: 40%;
-  width: 170px;
-  height: 48px;
-  background-color: #000;
-  color: #fff;
-}
-.customer-service{
-  padding: 3% 15%;
-}
-.mailing{
-  width: 45%;
-  height: 432px;
-  margin-top: -30px;
-}
-.mail-left{
-  margin-left: 55%;
-  width: 470px;
-  height: 255px;
-  gap: 16px;
-  margin-top: -35%;
-}
-.mail-left .more{
-  margin-left: 0%;
-  margin-top: 3%;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.feedback{
-  padding: 3% 15%;
+.customer{
+  height: 513px;
+  top: 1435px;
+  left: 20px;
+  gap: 30px;
 }
-.laptop{
-  width: 45%;
-  margin-left: 52%;
-  margin-top: -30%;
+.mailing{
+  width: 300px;
+  height: 249px;
+  margin-left: 6px;
+}
+.mail-left h1{
+  height: 60px;
+  font-family: "Crimson Text";
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 5px;
+}
+.mail-left p{
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.mail-left .more{
+    margin-left: 40%;
+    width: 170px;
+    height: 48px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.feedback{
+  height: 581px;
+  top: 2009px;
+  left: 20px;
+  gap: 30px;
+}
+.top-right{
+  transform: translateY(-60%);
 }
 .feed{
-  margin-right: 55%;
-  margin-top: 10%;
+  transform: translateY(176%);
+}
+.laptop{
+  width: 300px;
+  height: 316px;
+  margin-left: 5px;
+}
+.feed h1{
+  height: 60px;
+  font-family: "Crimson Text";
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 5px;
+}
+.feed p{
+  height: 95px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 .feed .more{
-  margin-left: 0%;
-  margin-top: 3%;
-}
-.workforce{
-  width: 100%;
-  padding: 3% 15%;
-}
-.managers{
-  margin-left: -20px;
+  margin-top: -10px;
+  margin-left: 5px;
 }
 .talent{
-  width: 411px;
-  height: 162px;
+  height: 167px;
+  top: 2630px;
+  left: 20px;
   gap: 16px;
-  text-align: center;
-  margin-left: 19%;
 }
 .talent h2{
   font-family: "Work Sans";
-  margin:0 auto;
   font-weight: 700;
-  font-family: 16px;
+  font-size: 16px;
+  text-align: center;
   color: #74C69D;
+  margin-top: 50px;
 }
 .talent h1{
   font-family: "Crimson Text";
   font-weight: 700;
-  font-size: 40px;
-  color: #212529;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
 }
 .talent p{
+  width: 335px;
   font-family: "Work Sans";
   font-weight: 400;
-  font-size: 20px;
-  color: #000;
+  font-size: 18px;
+  text-align: center;
+  margin-left: -5px;
+}
+.our-talent{
+  height: 1301px;
+  top: 2838px;
+  left: 50px;
+  gap: 35px;
+}
+.managers{
+  margin-left: 20px;
 }
 .view{
-  margin-left: 30%;
+  margin-left: 25%;
   width: 170px;
   height: 48px;
   background-color: #000;
   color: #fff;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-
 .footer{
-  
+    width: 370px;
   background-color: #74C69D;
-} 
+}
+.social{
+  justify-content: center;
+  margin: 5% 4% 3%;
+}
 .copyright{
   font-family: "Work Sans";
   font-weight: 400;
   font-size: 20px;
   color: #fff;
-  margin-left: 60%;
-  margin-top: -20px;
+  text-align: center;
 }
-.social-icon{
-  display: flex;
+@media (min-width: 768px){
 
-}
-.social{
-  height: 18px;
-  justify-content: space-between;
-  margin-left: 65px;
-  margin-top: 40px;
-  gap: 2px;
-}
-
-
-  @media (max-width: 320px) {
-    .main-container{
-      height:513px ;
-    }
-  
-    .teamwork {
-      width: 335px; /* Resize the image */
-      height: 200px; 
-      margin-top: 5px;
-      margin-left: -18% /* Center the image and add spacing below */
-    }
-    .welcome{
-      margin-top: 220px;
-      transform: translateX(40%);
-    }
-    h1{
-      width: 335px;
-      transform: translateX(40%);
-      font-size: 25px;
-      font-weight: 700;
-      line-height: 2;
-      margin-top: -20px;
-    }
-    .hero-content p{
-      width: 330px;
-      font-weight: 400;
-      font-size: 15px;
-      margin-left: 39%;
-    }
-  #button{
-    transform: translateX(28%);
+  .welcome{
+    margin-top: -150px;
+    margin-left: 20px;
   }
-
-      .explore {
-      width: 170px;
-      height: 48px;
-      margin: 20px auto; /* Center the button */
-      display: block;
-    }
-    .partners{
-      height: 712px;
-      gap: 55px;
-      margin-left: 20px;
-    }
-    .text h1{
-      font-size: 24px;
-      text-align: center;
-      transform: translateX(-120px);
-      margin-top: 50px;
-    }
-    .text h2{
-      font-size: 24px;
-      text-align: center;
-      margin-left: -300px;
-    }
-    .text h3{
-      width: 320px;
-      font-size: 20px;
-      text-align: center;
-      margin-left: -110px;
-    }
-    .partner-icon{
-      display: flex;
-      flex-direction: column;
-      margin: 10%;
-      gap: 20px;
-    }
-    .partners .more{
-      margin-left: 19px;
-    }
-    .mailing{
-      width: 300px;
-      margin-top: -100px;
-      margin-left: -38px;
-    }
-    .mail-left h1{
-      margin-top: 40px;
-      margin-left: -290px;
-      text-align: left;
-    }
-    .mail-left p{
-      width: 300px;
-      margin-top: 20px;
-      margin-left: -160px;
-    }
+  .teamwork{
+    width: 500px;
+    transform: translateX(100%);
+    margin-top: 200px;
+  }
+  .text h1{
+    margin-top: 100px;
+    margin-left: 25%;
+  }
+  .text h2{
+    margin-left: 25%;
+  }
+  .text h3{
+    margin-left: 25%;
+  }
+  .right{
+    width: 416px;
+    height: 299px;
+  }
+  .hero-content h1{
+    margin-left: 20px;
+  }
+  .hero-content p{
+    font-size: 15px;
+    width: 355px;
+    margin-left: 20px;
+  }
+  .explore{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .partners{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .icon{
+    transform: translateX(170%);
+  }
+  .more{
+    transform: translateX(50%);
+    margin-top: 50px;
+  }
+  .mailing{
+    margin-top: 100px;
+    width: 355px;
+    margin-left: 50px;
+  }
+  .mail-left{
+    transform: translateX(70%);
+    
+  }
+  .mail-left p{
+    font-size: 15px;
+    width: 335px;
+  }
     .mail-left .more{
-      margin-top: 30px;
-      margin-left:-170px;
+      margin-left: -90px;
     }
     .laptop{
-      width: 300px;
-      transform: translateY(-160%);
-      margin-left: -30px;
-    }
-    .feed h1{
-      margin-top: 345px;
-      text-align: left;
-      margin-left: -170px;
-    }
-    .feed p{
-      width: 300px;
-      text-align: left;
-      margin-top: 10px;
-      margin-left: -40px;
-    }
-    .feed .more{
-      margin-left: -40px;
-      margin-top: 10px;
-    }
-    .talent h2{
-      margin-top: -150px;
-      margin-left: -320px;
-    }
-    .our-talent{
-      display: flex;
-      flex-direction: column;
-      margin-top: 30px;
-      justify-content: center;
-      margin-left: -30px;
-      /* margin-right: 10px;  */
-    }
-    
-    .view{
-      margin-top: 50px;
-      margin-left: 40px;
-    }
-    .talent h1{
-      margin-left: -251px;
-      margin-top: 20px;
-      font-size: 24px;
-    }
-    .talent p{
-      text-align: center;
-      margin-left: -100px;
-      width: 300px;
-      font-size: 20px;
-    }
-    .copyright{
-      width: 300px;
-      margin-left: 40px;
-      margin-top: 10px;
-    }
-    .social-icon{
-      margin-top: 20px;
-      gap: 0px;
-    }
-    .social{
-      margin-top: 10px;
-      margin-bottom: 5px;
-      margin-left: 40px;
-    }
-  }
-  @media (max-width: 768px){
-    .main-container{
-      height:513px ;
-    }
-    .teamwork{
-      transform: translateY(-50%);
-      width: 335px;
-      margin-left: 25px;
-    }
-    .welcome{
-      margin-left: 129px;
-      margin-top: 220px;
-    }
-    h1{
-      transform: translateX(50%);
-    }
-    .hero-content p{
-      width: 330px;
-      font-weight: 400;
-      font-size: 15px;
-      margin-left: 40%;
-    }
-    h1{
-      width: 335px;
-      transform: translateX(40%);
-      font-size: 25px;
-      font-weight: 700;
-      line-height: 2;
-      margin-top: -20px;
-    }
-    #button{
-      transform: translateX(110%);
-    }
-    .partners{
-      height: 712px;
-      gap: 55px;
+      transform: translateY(40%);
+      width: 355px;
       margin-left: 50px;
     }
-    .text h1{
-      font-size: 24px;
-      text-align: center;
-      transform: translateX(-50px);
-      margin-top: 50px;
-    }
-    .text h2{
-      font-size: 24px;
-      text-align: center;
-      margin-left: -190px;
-    }
-    .text h3{
-      width: 335px;
-      font-size: 20px;
-      text-align: center;
-      margin-left: -60px;
-    }
-    .partner-icon{
-      display: flex;
-      flex-direction: column;
-      margin: 10%;
-      gap: 20px;
-    }
-    .partners .more{
-      margin-left: 19px;
-    }
-    .mailing{
-      width: 300px;
-      margin-top: -100px;
-      margin-left: -13px;
-    }
-    .mail-left h1{
-      margin-top: 40px;
-      margin-left: -320px;
-      text-align: left;
-    }
-    .mail-left p{
-      width: 300px;
-      margin-top: 20px;
-      margin-left: -190px;
-    }
-    .mail-left .more{
-      margin-top: 30px;
-      margin-left:-190px;
-    }
-    .laptop{
-      width: 300px;
-      transform: translateY(-160%);
-      margin-left: -30px;
+    .feed{
+      transform: translateX(70%);
     }
     .feed h1{
-      margin-top: 345px;
-      text-align: left;
-      margin-left: -170px;
+      transform: translateY(510px);
     }
     .feed p{
-      width: 300px;
-      text-align: left;
-      margin-top: 10px;
-      margin-left: -40px;
+      transform: translateY(500%);
+      font-size: 15px;
+      width: 355px;
     }
     .feed .more{
-      margin-left: -40px;
-      margin-top: 10px;
+      transform: translateY(500px);
+    }
+    .talent{
+      height: auto;
     }
     .talent h2{
-      margin-top: -150px;
-      margin-left: -300px;
-    }
-    .our-talent{
-      display: flex;
-      flex-direction: column;
-      margin-top: 30px;
-      justify-content: center;
-      margin-left: -40px;
-      gap: 1px;
-      /* margin-right: 10px;  */
-    }
-    
-    .view{
-      margin-top: 50px;
-      margin-left: 60px;
+      margin-top: 400px;
+      margin-left: 40%;
+  
     }
     .talent h1{
-      margin-left: -240px;
-      margin-top: 20px;
-      font-size: 24px;
-    }
+      margin-top: 40px;
+      margin-left: 40%;
+  }
     .talent p{
-      text-align: center;
-      margin-left: -80px;
-      width: 300px;
-      font-size: 20px;
+      margin-left: 50%;
+      margin-top: 40px;
     }
-    .copyright{
-      width: 300px;
-      margin-left: 90px;
-      margin-top: 10px;
+  
+    .managers{
+      margin-top: 120px;
+      transform: translateX(52%);
     }
-    .social-icon{
-      margin-top: 20px;
-      gap: 0px;
+    .view{
+      transform: translateY(-200%);
+      margin-left: 50%;
+    }
+    .footer{
+      width: 1025px;
     }
     .social{
-      margin-top: 10px;
-      margin-bottom: 5px;
-      margin-left: 40px;
+      margin-left: 50px;
     }
-    .our-talent{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .managers{
-      width: 80%;
-    }
+} 
+@media (min-width: 1024px){
+  .hero-section{
+    width: 1180px;
   }
-    
-  
+  .teamwork{
+    margin-top: 100px;
+    width: 645px;
+    height: 300px;
+}
+.partner-icon {
+  flex-direction: row; 
+  width: auto; 
+  height: auto; 
+  margin: 12%; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;  
+}
 
+.partner-icon img {
+  width: 150px; 
+  height: auto; 
+  row-gap: 5px;
+  margin-top: -100px;
+  transform: translateX(-50%);
+} 
+.more{
+  margin-left: 16%;
+  margin-top: -70px;
+}
+.text h1{
+  font-size: 16px;
+}
+.text h2{
+  font-size: 40px;
+}
+.text h3{
+  margin-top: 50px;
+  font-size: 20px;
+  width: 411px;
+  text-align: center;
+  margin-left: 30%;
+}
+.mailing{
+  width: 630px;
+  transform: translateY(25%);
+  margin-left: -10px;
+}
+.mail-left{
+  margin-left: 100px;
+  margin-top: -220px;
+}
+.customer{
+  margin-top: -200px;
+}
 
+.laptop{
+  transform: translateX(60%);
+  width: 630px;
+  margin-top: 120%;
+}
+.feed{
+  transform: translateX(5%);
+  margin-top: -300px;
+}
+.talent h2{
+  font-size: 16px;
+  text-align: center;
+}
+.talent h1{
+  font-size: 40px;
+  text-align: center;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+.talent p{
+  font-size: 20px;
+  text-align: center;
+  margin-left: 35%;
+}
+.our-talent{
+  flex-direction: row; 
+  width: auto; 
+  height: auto; 
+  /* margin: 12%;  */
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;  
+}
+.our-talent img{
+  width: 170px; 
+}
+.view{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.footer{
+  width: 1151px;
+}
+.social{
+  margin: 2%;
 
+}
+.copyright{
+  font-size: 20px;
+  transform: translateX(40%);
+  /* margin-bottom: 20%; */
+} 
+#copy{
+    transform: translateY(-27px);
+    margin-left: 50%;
 
-
+}
+}

@@ -20,7 +20,7 @@ const Footer = () => {
                 <img src={whatsapp} alt="whatsapp-icon" className='social'/>
                 <img src={tube} alt="youtube-icon" className='social'/>
             </div>
-            <div className="copyright">© Start, 2022. All rights reserved.</div>
+            <div className="copyright" id="copy">© Start, 2022. All rights reserved.</div>
         </section>
     );
 }

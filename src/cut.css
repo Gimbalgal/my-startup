@@ -1,0 +1,117 @@
+@media (min-width: 1024px){
+    .hero-section{
+      width: 1180px;
+    }
+    .teamwork{
+      margin-top: 100px;
+      width: 645px;
+      height: 300px;
+  }
+  .partner-icon {
+    flex-direction: row; 
+    width: auto; 
+    height: auto; 
+    margin: 12%; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;  
+  }
+  
+  .partner-icon img {
+    width: 150px; 
+    height: auto; 
+    row-gap: 5px;
+    margin-top: -100px;
+    transform: translateX(-50%);
+  } 
+  .more{
+    margin-left: 16%;
+    margin-top: -70px;
+  }
+  .text h1{
+    font-size: 16px;
+  }
+  .text h2{
+    font-size: 40px;
+  }
+  .text h3{
+    margin-top: 50px;
+    font-size: 20px;
+    width: 411px;
+    text-align: center;
+    margin-left: 30%;
+  }
+  .mailing{
+    width: 630px;
+    transform: translateY(25%);
+    margin-left: -10px;
+  }
+  .mail-left{
+    margin-left: 100px;
+    margin-top: -220px;
+  }
+  .customer{
+    margin-top: -200px;
+  }
+  
+  .laptop{
+    transform: translateX(60%);
+    width: 630px;
+    margin-top: 120%;
+  }
+  .feed{
+    transform: translateX(5%);
+    margin-top: -300px;
+  }
+  .talent h2{
+    font-size: 16px;
+    text-align: center;
+  }
+  .talent h1{
+    font-size: 40px;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+  .talent p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35%;
+  }
+  .our-talent{
+    flex-direction: row; 
+    width: auto; 
+    height: auto; 
+    /* margin: 12%;  */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;  
+  }
+  .our-talent img{
+    width: 170px; 
+  }
+  .view{
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .footer{
+    margin-bottom: 0 auto;
+  }
+  .social{
+    margin-left: 20px;
+  }
+  .copyright{
+    transform: translateX(30%);
+    margin-top: -50px;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
