@@ -8,6 +8,7 @@ body {
   
 }
 .main-container{
+  overflow: hidden;
   /* width: 370px; */
   height: 515px;
   background-color: #74C69D;
