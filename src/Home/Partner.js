@@ -22,7 +22,7 @@ const Partner = () => {
                             <img src={facebook} alt="facebook-icon" className='icon' />
                             <img src={spotify} alt="spotify-icon" className='icon' />
                         </div>
-                        <button className="more">Learn More</button>
+                        <button className="more" id="more-btn">Learn More</button>
                     </section>
             </div>
 

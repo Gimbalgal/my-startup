@@ -65,29 +65,39 @@
     }
 }
 @media (min-width: 1024px){
+    
     .work h1{
+        margin-top: 100px;
         font-size: 16px;
+        margin-left: 35px;
     }
     .work h2{
         font-size: 40px;
+        margin-left: 40px;
     }
     .work p{
         font-size: 20px;
+        margin-left: 60px;
     }
     .port{
-        margin-top: 20px;
-        margin-bottom: 55px;
+        margin-top: 40%;
         margin-left: 45%;
     }
     .image-gallery img{
         width: 550px;
         height: 335px;
-        margin-left: 9px;
-        
+        border-radius: 5px;
+        border: 1.5px;
+        margin-left: 15%;  
+        margin-top: 100px;
     }
     .image-gallery{
+        width: 1187px;
         height: 1567px;
-        gap: 10px;
+        top: 397px;
+        left: 130px;
+        gap: 55px;
+
     }
     .copyright{
         margin-top: -20px;
