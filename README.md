@@ -10,7 +10,7 @@ Startup. As the name implys is a startup website where portential customer can v
 ## Table of Contents
 
 - [Project Name](#Startup)
-  - [Table of Contents](#table-of-contents)
+- [Table of Contents](#table-of-contents)
 
   - [Introduction](#introduction)
 
@@ -70,14 +70,18 @@ Startup website has one purpose, to help customer has a feel good experience and
 
 
 ## Setup and Installation
+## ** Prerequistion**
 
-Explain how to set up and run your project locally. Include prerequisites, installation steps, and any necessary configurations.
+
+-node.js installed
+-npm (Node package manager) or yarn
+
+
 
 1\. **Clone the repository:**
 
-    ```bash
 
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Gimbalgal/my-startup.git
 
     ```
 
@@ -85,33 +89,13 @@ Explain how to set up and run your project locally. Include prerequisites, insta
 
     ```bash
 
-    cd your-repo-name
+    cd React App
 
-    ```
+    
+ **Run the project:**
 
-3\. **Install dependencies:**
-
-    ```bash
-
-    npm install
-
-    ```
-
-    or if you are using yarn:
-
-    ```bash
-
-    yarn install
-
-    ```
-
-4\. **Run the project:**
-
-    ```bash
 
     npm start
-
-    ```
 
     or if you are using yarn:
 
