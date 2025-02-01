@@ -11,7 +11,6 @@
     text-align: center;
     color: #74C69D;
     margin-top: 50px;
-    margin-left: 35%;
 }
 .work h2{
     font-family: "Crimson Text";
@@ -19,7 +18,7 @@
     font-size: 24px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 35%;
+
 }
 .work p{
     font-family: "Work Sans";
@@ -27,82 +26,49 @@
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
-    margin-left: 35%;
 }
 .image-gallery{
-    height: 1000px;
-    /* top: 316;  */
     display: grid;
-    gap: 2px;
+    gap: 15px;
     grid-template-columns: repeat(1, 1fr);
 }
-.img{
-    height: 197px;
-    border-radius: 5px;
-    margin-left: 50%; 
-} 
+.image-gallery img{
+    max-width: 100%;
+    height: auto;
+}
+
 .port{
-    margin-left: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 70px;
     width: 170px;
     height: 48px;
     background-color: #000;
     color: #fff;
-    margin-top: 30px;
-    margin-left: 25%;
-    margin-bottom: 10px;
-}
 
-@media (min-width: 768px){
-    .image-gallery{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .image-gallery img{
-        width: 355px;
-    }
+} 
+
+    @media (min-width: 768px){
+        .image-gallery {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 5px; 
+        }
+        
+        .image-gallery img {
+            width: 335px; 
+            margin: 0 auto; 
+        }
     .port{
-        margin-left: 60%;
+        margin-left: 40%;
     }
-}
-@media (min-width: 1024px){
+} 
+    @media (min-width: 1024px){
+        .image-gallery img{
+            width: 600px;
+        }
     
-    .work h1{
-        margin-top: 100px;
-        font-size: 16px;
-        margin-left: 35px;
-    }
-    .work h2{
-        font-size: 40px;
-        margin-left: 40px;
-    }
-    .work p{
-        font-size: 20px;
-        margin-left: 60px;
-    }
-    .port{
-        margin-top: 40%;
-        margin-left: 45%;
-    }
-    .image-gallery img{
-        width: 550px;
-        height: 335px;
-        border-radius: 5px;
-        border: 1.5px;
-        margin-left: 15%;  
-        margin-top: 100px;
-    }
-    .image-gallery{
-        width: 1187px;
-        height: 1567px;
-        top: 397px;
-        left: 130px;
-        gap: 55px;
-
-    }
-    .copyright{
-        margin-top: -20px;
-    }
-
-}
+} 
 
 

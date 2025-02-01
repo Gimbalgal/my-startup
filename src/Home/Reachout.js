@@ -6,14 +6,15 @@ const Reachout = () => {
     <section className='customer-service'> 
         <div className="customer">   
             <div className="mail-right">
-                <img src={mailing} alt="customer services" className='mailing'/>
+                <img src={mailing} alt="customer services" className='mailing' id="email"/>
             </div>
             <div className="mail-left">
             <h1>Lorem ipsum dolor sit amet consectetur </h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-            <button className="more">Learn More</button>
-            </div>
+            
         </div>
+        </div>
+        <button className="more" id="mail">Learn More</button>
     </section>
     );
 }

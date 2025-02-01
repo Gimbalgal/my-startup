@@ -109,6 +109,254 @@
   
   
   
+
+
+
+
+
+
+
+.today{
+  width: 100px;
+}
+
+  @media (min-width: 768px){
+    .welcome{
+      margin-top: -150px;
+      margin-left: 20px;
+    }
+    .teamwork{
+      flex-direction: column-reverse;
+    }
+    .text h1{
+      margin-top: 100px;
+      margin-left: 25%;
+    }
+    .text h2{
+      margin-left: 25%;
+    }
+    .text h3{
+      margin-left: 25%;
+    }
+    .hero-content h1{
+      margin-left: 20px;
+    }
+  
+    .explore{
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+    .partners{
+      text-align: center;
+      margin-top: 100px;
+    }
+    
+    .mailing{
+    flex-direction: column-reverse;
+    }
+      .mail-left .more{
+        margin-left: -90px;
+      }
+      .laptop{
+        flex-direction: column-reverse;
+      }
+      .feed{
+        transform: translateX(70%);
+      }
+      .feed h1{
+        transform: translateY(510px);
+      }
+      .feed p{
+        transform: translateY(500%);
+        font-size: 15px;
+        width: 355px;
+      }
+      .feed .more{
+        transform: translateY(500px);
+      }
+      .talent{
+        height: auto;
+      }
+      .talent h2{
+        margin-top: 400px;
+        margin-left: 40%;
+    
+      }
+      .talent h1{
+        margin-top: 40px;
+        margin-left: 40%;
+    }
+      .talent p{
+        margin-left: 50%;
+        margin-top: 40px;
+      }
+    
+  } 
+  @media (min-width: 1024px){
+    .main-container{
+      width: 1440px;
+      height: 586px;
+    } 
+    .hero-section{
+      width: 1180px;
+    }
+    .teamwork{
+      width: 645px;
+      height: 300px;
+  }
+  .hero-section{
+    width: 1180px;
+    height: 378px;
+    top: 125px;
+    left: 130px;
+    gap: 120px;
+  }
+  .hero-content p{
+    font-size: 15px;
+  }
+  .partners{
+    width: 1159px;
+    height: 370px;
+    top: 646px;
+    left: 141px;
+    gap: 55px;
+  }
+  .partner-icon {
+    flex-direction: row; 
+    width: auto; 
+    height: auto; 
+    margin: 12%; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;  
+  }
+  .partner-icon img {
+    width: 150px; 
+    height: auto; 
+    row-gap: 5px;
+  } 
+  .text h1{
+    font-size: 16px;
+    margin-left: 15%
+  }
+  .text h2{
+    font-size: 40px;
+    margin-left: 18%;
+  }
+  .text h3{
+    margin-top: 50px;
+    font-size: 20px;
+    width: 411px;
+    text-align: center;
+    margin-left: 40%;
+  }
+  /* .customer-service{
+    width: 1180px;
+    height: 432px;
+    top: 1089px;
+    left: 130px;
+    justify-content: space-between;
+  } */
+  .mailing{
+    width: 600px;
+    height: 434px;
+    margin-left: 100px;
+  }
+  .mail-left{
+    margin-top: -270px;
+  }
+  .feedback{
+    width: 1180px;
+    height: 566px;
+    top: 1594px;
+    left: 130px;
+    justify-content: center;
+  }
+  
+  .laptop{
+    width: 600px;
+    height: 566px;
+  } 
+  /* .feed{
+    transform: translateX(10%);
+    margin-top: 130px;
+  } */
+  .talent{
+      width: 404px;
+      height: 162px;
+      gap: 16px;
+      justify-content: center;
+      margin-left: 30%;
+  }
+  .talent h2{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 520px; 
+  }
+  .talent h1{
+    font-size: 40px;
+  }
+  .talent p{
+    font-size: 20px;
+    margin-left: 25%; 
+  }
+  .workforce{
+    width: 1176px;
+    height: 599px;
+    top: 2262px;
+    left: 132px;
+    gap: 45px;
+  }
+  .our-talent {
+    display: flex; 
+    flex-direction: row; 
+    width: 1170px; 
+    height: 299px;  
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .our-talent img {
+    width: 279px; 
+    height: 299px; 
+    margin-left: -10%; 
+    padding: 0; 
+    margin-top: 300px;
+  }
+  .our-talent img{
+    width: 279px;
+  }
+  .view{
+    margin-top: 350px;
+  
+  } 
+  .social-icon{
+    width: 1178px;
+    height: 25px;
+    top: 2966px;
+    left: 131px;
+    justify-content: space-between;
+  }
+  .social{
+    margin: 2%;
+    margin-top: 4%;
+  } 
+  .copyright{
+    font-size: 20px;
+    
+  }  
+  #copy{
+      transform: translateY(45px);
+      margin-left: 50%;
+  
+  } 
+    .footer{
+      width: 1440px;
+      height: 125px;
+      top: 2915px;
+      margin-top: 426px;
+    }
+  }
   
   
   

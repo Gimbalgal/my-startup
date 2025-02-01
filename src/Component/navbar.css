@@ -49,14 +49,31 @@ a {
 .logo{
     margin-left: 20px;
 }
-@media (min-width: 768px){
-    /* .navbar{
-        width: 1025px;
-    } */
-}
-@media (min-width: 1024px){
+/* @media (min-width: 768px){
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        width: 100%; 
+        background-color: #74C69D;
+        padding: 20px; 
+    }
+    .nav-links.show {
+        display: flex; 
+        margin: 10px 0; 
+        text-align: end;
+    }
+    .menu-icon{
+        margin-left: 1550%;
+        margin-top: 15px;
+    }
+} */
+
+    @media (min-width: 1024px){
     .navbar{
-        width: 1440px;
+        /* width: 1440px; */
         height: 50px;
         top: 35px;
         left: 135px;
@@ -77,4 +94,4 @@ a {
         margin-top: -50px;
     }
 
-}
+} 
