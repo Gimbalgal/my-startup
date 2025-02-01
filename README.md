@@ -41,7 +41,7 @@ Startup website has one purpose, to help customer has a feel good experience and
 
 ## Live Demo
 
- [Live Demo](https://my-startup-app-n3c2.onrender.com/)
+ [Live Demo](https://my-startup-app-6tms.onrender.com)
 
  [Presentation](https://www.loom.com/share/fb40af55b7c44417b316106427c308ea?sid=ee8e8697-0a7c-4a74-bef2-0b510e69543b)
 
