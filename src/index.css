@@ -229,19 +229,19 @@ body {
 .footer{
     
   background-color: #74C69D;
-  padding: 20px;
+  padding: 15px;
 }
 .social{
   justify-content: center;
-  margin: 3% 2% 4% 6%; 
+  margin: 3% 2% 0% 4%; 
 }
 .copyright{
   font-family: "Work Sans";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   color: #fff;
-  margin-top: -10px;
-  margin-left: 25%;
+  margin-top: 5px;
+  margin-left: 10%;
 }
 
 @media (min-width: 768px){

@@ -1,0 +1,161 @@
+.service h1{
+    font-family: "Work Sans";
+    font-weight: 700;
+    font-size: 16px;
+    height: 20px;
+    text-align: center;
+    color: #74C69D;
+}
+.service h2{
+    font-family: "Crimson Text";
+    font-weight: 700;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+.service p{
+    width: 300px;
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 20px;
+    height: 85px;
+    text-align: center;
+}
+.service-container{
+  height: 1,726px;
+  gap: 50px;
+}
+.service{
+  margin-top: 50px;
+  height: 167px;
+  gap: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    height: auto; 
+
+}
+
+.card-list {
+    height: 542px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0; 
+    width: 90%; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+  /* Heading style */
+.heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+span{
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+  /* Card body style */
+.body {
+    margin: 17px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.body-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.body-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #333;
+}
+.body-list li::before {
+    content: "✔";
+    color: green;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+  /* Button styling */
+button.basic {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20%;
+}
+
+button.basic:hover {
+    background-color: #444;
+}
+
+  /* Mobile responsiveness */
+@media (min-width: 768px) {
+    .cards {
+      flex-direction: row; 
+    }
+  
+    .card-list {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  
+    .plan {
+      font-size: 2rem; 
+    }
+  
+    .body-list li {
+      font-size: 0.85rem; 
+    }
+  
+    button.basic {
+      width: 100%; 
+      padding: 12px; 
+    }
+    .service h2{
+      font-size: 40px;
+    }
+    .service p{
+      width: 411px;
+      font-weight: 400;
+      font-size: 20px;
+      text-align: center;
+      margin-left: 25%;
+      margin-top: 20px;
+    }
+  }
+  @media(min-width: 1024px){
+    .cards{
+      width: 1227px;
+      height: 542px;
+      gap: 90px;
+      margin-left: 25px;
+    }
+    .service p{
+      height: 60px;
+      margin-left: 35%;
+    }
+  }
