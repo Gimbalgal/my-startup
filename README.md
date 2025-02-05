@@ -119,6 +119,8 @@ Include screenshots or GIFs of your project in action. This helps users understa
 
 ![screenshoot 1](image.png)
 ![screenshoot 2](image-1.png)
+![screenshoot 3](image-2.png)
+![screenshoot 4](image-3.png)
 
 
 
