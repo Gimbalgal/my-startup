@@ -178,6 +178,11 @@ body {
   margin-top: 5px;
   margin-left: 5px;
 }
+.workforce-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .talent{
   height: 167px;
   top: 2630px;
@@ -206,17 +211,18 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  margin-left: -5px;
+  margin-left: -3px;
 }
 .our-talent{
   height: 1301px;
-  top: 2838px;
-  left: 50px;
+  margin-right: 10px; 
   gap: 35px;
+  justify-content: center;
+  margin-left: 4px;
 }
-.managers{
-  margin-left: 10px;
-}
+/* .managers{
+  margin-left: 10%;
+} */
 .view{
   margin-left: 25%;
   width: 170px;
