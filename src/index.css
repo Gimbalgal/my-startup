@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box; 
+  /* outline: red 1px solid; */
 }
 body{
   margin: 0px;
@@ -257,6 +258,13 @@ body{
   .view{
     margin: 28%;
   }
+  .text h3{
+    margin-left: 5%;
+  }
+  #mail{
+    transform: translateY(-50%);
+  }
+
 }
 @media(min-width: 768px){
   .hero-container{
@@ -285,8 +293,8 @@ body{
     margin: -7% 5% 10%;
   }
   .text h3{
-    width: 100%;
     margin-top: 5px;
+    margin-left: 28%;
   }
   .partner-icon{
     margin: 6% 40%;
@@ -337,7 +345,7 @@ body{
   .view{
     padding: 20px 30px;
     justify-content: center;
-    transform: translateX(580px);
+    transform: translateX(220%);
     margin: auto;
   }
   .footer-container{
