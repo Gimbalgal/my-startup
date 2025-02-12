@@ -15,13 +15,13 @@ function Navbar() {
         <nav className="navbar">
             
                 <div className="navbar-header">
-                        <div className="logo-container">
+                    <div className="logo-container">
                             <img src={start} alt="Startup Logo" className="logo" id="start" />
                         </div>
                         <div className="hamburger-container" onClick={toggleMenu}>
                             <img src={hamburger} alt="hamburger" className="menu-icon" id="menu" />
                         </div>
-                </div>
+                    </div>    
 
                 {/* Navigation Links */}
                 <ul className={`nav-links ${menuOpen ? 'show' : ''}`}>

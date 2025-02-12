@@ -11,16 +11,18 @@ import tube from '../asset/tube.svg';
 const Footer = () => {
     return ( 
         <section className="footer">
-            <div className="social-icon">
-                <img src={fbook} alt="facebook-icon" className='social'/>
-                <img src={grameC} alt="instagram-icon" className='social' />
-                <img src={twitter} alt="twitter-icon" className='social'/>
-                <img src={pinterest} alt="pinterest-icon" className='social' />
-                <img src={tune} alt="music-icon" className='social' />
-                <img src={whatsapp} alt="whatsapp-icon" className='social'/>
-                <img src={tube} alt="youtube-icon" className='social'/>
+            <div className="footer-container">
+                <div className="social-icon">
+                    <img src={fbook} alt="facebook-icon" className='social'/>
+                    <img src={grameC} alt="instagram-icon" className='social' />
+                    <img src={twitter} alt="twitter-icon" className='social'/>
+                    <img src={pinterest} alt="pinterest-icon" className='social' />
+                    <img src={tune} alt="music-icon" className='social' />
+                    <img src={whatsapp} alt="whatsapp-icon" className='social'/>
+                    <img src={tube} alt="youtube-icon" className='social'/>
+                </div>
+                <div className="copyright" id="copy">© Start, 2022. All rights reserved.</div>
             </div>
-            <div className="copyright" id="copy">© Start, 2022. All rights reserved.</div>
         </section>
     );
 }

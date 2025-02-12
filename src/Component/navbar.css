@@ -1,8 +1,83 @@
 
+
+.navbar{
+    background-color: #74C69D;
+}
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Work Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.nav-link:hover {
+    color: #007bff;
+}
+.nav-links {
+    display: none; 
+    flex-direction: column;
+    top: 60px;  
+    right: 0;
+    width: 100%; 
+    background-color: #74C69D;
+    padding: 20px; 
+
+}
+.nav-links.show {
+    display: flex; 
+    margin: 10px 0; 
+    text-align: end;
+}
+.menu-icon{
+    padding-top: 20px;
+    padding-right: 60px;
+}
+.logo{
+    margin: 10px;
+}
+@media(min-width: 768px){
+    .logo{
+        margin: 47%;
+        margin-top: 30px;
+    }
+}
+@media(min-width:1024px){
+    .menu-icon{
+        margin-left: 50px;
+        display: none;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        color:#ffff;
+        text-decoration: none;
+        gap: 10px;
+        padding-right: 90px;
+        margin-top: -85px;
+    }
+    .logo{
+        transform: translateY(25px);
+    }
+    .social{
+        margin-left: 15px;
+        margin-top: 12%;
+    }
+}
+
+
+/* 
 .navbar{
     height: 38px;
-    top: 17px;
-    left: 20px;
     gap: 171px;
     background-color: #74C69d;
     padding: 10px 10px;
@@ -12,8 +87,8 @@
     justify-content: space-between;
 } 
 .menu-icon{
-    margin-right: 30px;
-    margin-top: 10px;
+    margin-right: 40px;
+    margin-top: 7px;
 }
 ul li {
     list-style: none;
@@ -32,8 +107,8 @@ a {
 .nav-links {
     display: none; 
     flex-direction: column;
-    position: absolute;
-    top: 60px; 
+    position: absolute; 
+    top: 60px;  
     right: 0;
     width: 100%; 
     background-color: #74C69D;
@@ -46,13 +121,12 @@ a {
     text-align: end;
 }
 .logo{
-    margin-left: 20px;
+    margin-left: 10%; 
 }
 
 
     @media (min-width: 1024px){
     .navbar{
-        /* width: 1440px; */
         height: 50px;
         top: 35px;
         left: 135px;
@@ -73,4 +147,4 @@ a {
         margin-top: -50px;
     }
 
-} 
+}  */
